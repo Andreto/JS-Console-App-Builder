@@ -1,0 +1,52 @@
+.light-mode {
+  background: #EAEAEB;
+  color: #424243;
+}
+
+.light-mode .console {
+  background: #FAFAFA;
+}
+.light-mode .tool-group {
+  background: #FAFAFA;
+}
+.light-mode .tool-item {
+  background: #EAEAEB;
+}
+.light-mode .tool-item:hover {
+  background: #DBDBDC;
+}
+
+.light-mode .CodeMirror {
+  background: #EAEAEB;
+}
+
+.light-mode #run-button {
+  color: #fff;
+}
+
+
+/* Track */
+.light-mode ::-webkit-scrollbar-track {
+  background: #FAFAFA;
+  border-radius: 5px;
+  margin: 10px;
+}
+.light-mode #console-content::-webkit-scrollbar-track {
+  background: #EAEAEB;
+}
+
+/* Handle */
+.light-mode ::-webkit-scrollbar-thumb {
+  background: #DBDBDC;
+  border-radius: 5px;
+}
+.light-mode #console-content::-webkit-scrollbar-thumb{
+  background: #DBDBDC;
+}
+
+.light-mode ::-webkit-scrollbar-thumb:hover {
+  background: #D3D3D5;
+}
+.light-mode #console-content::-webkit-scrollbar-thumb:hover{
+  background: #D3D3D5;
+}
